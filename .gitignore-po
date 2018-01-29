@@ -29,7 +29,11 @@
 !/src/bin/psql/po/ja.po
 !/src/pl/
 /src/pl/*
-/src/pl/plperl/
+!/src/pl/plperl/
+/src/pl/plperl/*
+!/src/pl/plperl/po/
+/src/pl/plperl/po/*
+!/src/pl/plperl/po/ja.po
 !/src/pl/plpgsql/
 /src/pl/plpgsql/*
 !/src/pl/plpgsql/src/
