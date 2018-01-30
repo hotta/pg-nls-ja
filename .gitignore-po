@@ -32,6 +32,11 @@
 !/src/bin/pg_archivecleanup/po/
 /src/bin/pg_archivecleanup/po/*
 !/src/bin/pg_archivecleanup/po/ja.po
+!/src/bin/pg_test_fsync/
+/src/bin/pg_test_fsync/*
+!/src/bin/pg_test_fsync/po/
+/src/bin/pg_test_fsync/po/*
+!/src/bin/pg_test_fsync/po/ja.po
 !/src/pl/
 /src/pl/*
 !/src/pl/plperl/
