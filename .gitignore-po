@@ -37,6 +37,11 @@
 !/src/bin/pg_test_fsync/po/
 /src/bin/pg_test_fsync/po/*
 !/src/bin/pg_test_fsync/po/ja.po
+!/src/bin/pg_test_timing/
+/src/bin/pg_test_timing/*
+!/src/bin/pg_test_timing/po/
+/src/bin/pg_test_timing/po/*
+!/src/bin/pg_test_timing/po/ja.po
 !/src/pl/
 /src/pl/*
 !/src/pl/plperl/
