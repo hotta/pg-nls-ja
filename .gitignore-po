@@ -42,6 +42,11 @@
 !/src/bin/pg_test_timing/po/
 /src/bin/pg_test_timing/po/*
 !/src/bin/pg_test_timing/po/ja.po
+!/src/bin/pg_waldump/
+/src/bin/pg_waldump/*
+!/src/bin/pg_waldump/po/
+/src/bin/pg_waldump/po/*
+!/src/bin/pg_waldump/po/ja.po
 !/src/pl/
 /src/pl/*
 !/src/pl/plperl/
