@@ -47,6 +47,11 @@
 !/src/bin/pg_test_timing/po/
 /src/bin/pg_test_timing/po/*
 !/src/bin/pg_test_timing/po/ja.po
+!/src/bin/pg_upgrade/
+/src/bin/pg_upgrade/*
+!/src/bin/pg_upgrade/po/
+/src/bin/pg_upgrade/po/*
+!/src/bin/pg_upgrade/po/ja.po
 !/src/bin/pg_waldump/
 /src/bin/pg_waldump/*
 !/src/bin/pg_waldump/po/
