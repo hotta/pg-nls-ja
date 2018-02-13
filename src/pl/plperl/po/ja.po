@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plperl (PostgreSQL) 10\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-01-29 10:46+0900\n"
-"PO-Revision-Date: 2018-01-29 11:13+0900\n"
+"PO-Revision-Date: 2018-02-13 11:13+0900\n"
 "Last-Translator: Michihide Hotta <hotta@net-newbie.com>\n"
 "Language-Team: jpug-doc <jpug-doc@ml.postgresql.jp>\n"
 "Language: ja\n"
@@ -37,7 +37,7 @@ msgstr "plperl が最初に使用される際に一度だけ実行される Perl
 
 #: plperl.c:451
 msgid "Perl initialization code to execute once when plperlu is first used."
-msgstr "plperlu が最初に使用される際に一度実行される Perl 初期化コード。"
+msgstr "plperlu が最初に使用される際に一度だけ実行される Perl の初期化コード。"
 
 #: plperl.c:648
 #, c-format
@@ -210,7 +210,7 @@ msgstr "トリガー関数はトリガーとしてのみコールできます"
 #: plperl.c:3170
 #, c-format
 msgid "query result has too many rows to fit in a Perl array"
-msgstr "クエリーの結果に含まれる行数が Perl の配列に対して多すぎます"
+msgstr "問い合わせの結果に含まれる行数が Perl の配列に対して多すぎます"
 
 #: plperl.c:3240
 #, c-format

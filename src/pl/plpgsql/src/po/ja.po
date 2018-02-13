@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plpgsql (PostgreSQL) 10\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-01-26 13:56+0900\n"
-"PO-Revision-Date: 2018-01-29 09:35+0900\n"
+"PO-Revision-Date: 2018-02-13 09:35+0900\n"
 "Last-Translator: Michihide Hotta <hotta@net-newbie.com>\n"
 "Language-Team: Japan PostgreSQL Users Group <jpug-doc@ml.postgresql.jp>\n"
 "Language: ja\n"
@@ -338,7 +338,7 @@ msgstr "SETOF でない関数では RETURN QUERY は使えません"
 
 #: pl_exec.c:3045
 msgid "structure of query does not match function result type"
-msgstr "クエリーの構造が関数の結果の型と一致しません"
+msgstr "問い合わせの構造が関数の結果の型と一致しません"
 
 #: pl_exec.c:3129 pl_exec.c:3267
 #, c-format
@@ -388,17 +388,17 @@ msgstr "データを返せないコマンドで INTO が使われました"
 #: pl_exec.c:3785 pl_exec.c:3976
 #, c-format
 msgid "query returned no rows"
-msgstr "クエリーは行を返しませんでした"
+msgstr "問い合わせは行を返しませんでした"
 
 #: pl_exec.c:3804 pl_exec.c:3995
 #, c-format
 msgid "query returned more than one row"
-msgstr "クエリーが複数の行を返しました"
+msgstr "問い合わせが複数の行を返しました"
 
 #: pl_exec.c:3821
 #, c-format
 msgid "query has no destination for result data"
-msgstr "クエリーに結果データの返却先が指定されていません"
+msgstr "問い合わせに結果データの返却先が指定されていません"
 
 #: pl_exec.c:3822
 #, c-format
@@ -408,7 +408,7 @@ msgstr "SELECT の結果を破棄したい場合、代わりに PERFORM を使�
 #: pl_exec.c:3855 pl_exec.c:7317
 #, c-format
 msgid "query string argument of EXECUTE is null"
-msgstr "EXECUTE のクエリー文字列の引数が NULL です"
+msgstr "EXECUTE の問い合わせ文字列の引数が NULL です"
 
 #: pl_exec.c:3911
 #, c-format
@@ -471,23 +471,23 @@ msgstr "代入における配列の添字が NULL であってはなりません
 #: pl_exec.c:5198
 #, c-format
 msgid "query \"%s\" did not return data"
-msgstr "クエリー \"%s\" がデータを返しませんでした"
+msgstr "問い合わせ \"%s\" がデータを返しませんでした"
 
 #: pl_exec.c:5206
 #, c-format
 msgid "query \"%s\" returned %d column"
 msgid_plural "query \"%s\" returned %d columns"
-msgstr[0] "クエリー \"%s\" が %d 個の列を返しました"
+msgstr[0] "問い合わせ \"%s\" が %d 個の列を返しました"
 
 #: pl_exec.c:5233
 #, c-format
 msgid "query \"%s\" returned more than one row"
-msgstr "クエリー \"%s\" が複数の行を返しました"
+msgstr "問い合わせ \"%s\" が複数の行を返しました"
 
 #: pl_exec.c:5301
 #, c-format
 msgid "query \"%s\" is not a SELECT"
-msgstr "クエリー \"%s\" が SELECT ではありません"
+msgstr "問い合わせ \"%s\" が SELECT ではありません"
 
 #: pl_funcs.c:239
 msgid "statement block"
@@ -608,7 +608,7 @@ msgstr "整数を使った FOR ループには、ターゲット変数が１個�
 #: pl_gram.y:1495
 #, c-format
 msgid "cannot specify REVERSE in query FOR loop"
-msgstr "クエリーを使った FOR ループの中では REVERSE は指定できません"
+msgstr "問い合わせを使った FOR ループの中では REVERSE は指定できません"
 
 #: pl_gram.y:1642
 #, c-format

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plpython (PostgreSQL) 10\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-01-26 10:57+0900\n"
-"PO-Revision-Date: 2018-01-29 10:25+0900\n"
+"PO-Revision-Date: 2018-02-13 10:25+0900\n"
 "Last-Translator: Michihide Hotta <hotta@net-newbie.com>\n"
 "Language-Team: Japan PostgreSQL Users Group <jpug-doc@ml.postgresql.jp>\n"
 "Language: ja\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: plpy_cursorobject.c:100
 #, c-format
 msgid "plpy.cursor expected a query or a plan"
-msgstr "plpy.cursor はクエリーもしくは実行計画を期待していました"
+msgstr "plpy.cursor は問い合わせもしくは実行計画を期待していました"
 
 #: plpy_cursorobject.c:176
 #, c-format
@@ -31,13 +31,13 @@ msgstr "plpy.cursor は第二引数としてシーケンスを取ります"
 #: plpy_cursorobject.c:192 plpy_spi.c:226
 #, c-format
 msgid "could not execute plan"
-msgstr "プランを実行できませんでした"
+msgstr "実行計画を実行できませんでした"
 
 #: plpy_cursorobject.c:195 plpy_spi.c:229
 #, c-format
 msgid "Expected sequence of %d argument, got %d: %s"
 msgid_plural "Expected sequence of %d arguments, got %d: %s"
-msgstr[0] "%d 番目の引数はシーケンスを期待していましたが、%d が現れました：%s"
+msgstr[0] "%d 個の引数のシーケンスを期待していましたが、個数は %d でした：%s"
 
 #: plpy_cursorobject.c:350
 #, c-format
@@ -58,7 +58,7 @@ msgstr "クローズされたカーソルからのフェッチ"
 #: plpy_cursorobject.c:463 plpy_spi.c:434
 #, c-format
 msgid "query result has too many rows to fit in a Python list"
-msgstr "クエリーの結果に含まれる行数が、Python のリストに対して多すぎます"
+msgstr "問い合わせの結果に含まれる行数が、Python のリストに対して多すぎます"
 
 #: plpy_cursorobject.c:504
 #, c-format
@@ -109,7 +109,7 @@ msgstr "戻り値が \"void\" 型である PL/Python 関数が None 型を返し
 #: plpy_exec.c:379 plpy_exec.c:405
 #, c-format
 msgid "unexpected return value from trigger procedure"
-msgstr "トリガープロシージャから期待しない戻り値が返されました"
+msgstr "トリガプロシージャから期待しない戻り値が返されました"
 
 #: plpy_exec.c:380
 #, c-format
@@ -121,7 +121,7 @@ msgstr "None もしくは文字列を期待していました。"
 msgid ""
 "PL/Python trigger function returned \"MODIFY\" in a DELETE trigger -- ignored"
 msgstr ""
-"PL/Python トリガー関数が、DELETE トリガーで \"MODIFY\" を返しました-- 無視さ"
+"PL/Python トリガ関数が、DELETE トリガで \"MODIFY\" を返しました-- 無視さ"
 "れました"
 
 #: plpy_exec.c:406
@@ -155,7 +155,7 @@ msgstr "戻り値を生成する際に"
 #: plpy_exec.c:743
 #, c-format
 msgid "could not create new dictionary while building trigger arguments"
-msgstr "トリガーの引数を構成中、新しい辞書を生成できませんでした"
+msgstr "トリガの引数を構成中、新しい辞書を生成できませんでした"
 
 #: plpy_exec.c:931
 #, c-format
@@ -178,7 +178,7 @@ msgid ""
 "key \"%s\" found in TD[\"new\"] does not exist as a column in the triggering "
 "row"
 msgstr ""
-"TD[\"new\"] で見つかったキー \"%s\" は、行レベルトリガーにおけるカラムとして"
+"TD[\"new\"] で見つかったキー \"%s\" は、行レベルトリガにおけるカラムとして"
 "は存在しません"
 
 #: plpy_exec.c:975
@@ -189,7 +189,7 @@ msgstr "システム属性 \"%s\" を設定できません"
 #: plpy_exec.c:1046
 #, c-format
 msgid "while modifying trigger row"
-msgstr "トリガー行を変更する際に"
+msgstr "トリガ行を変更する際に"
 
 #: plpy_exec.c:1107
 #, c-format
@@ -289,7 +289,7 @@ msgstr "無効な SQLSTATE コードです"
 #: plpy_procedure.c:230
 #, c-format
 msgid "trigger functions can only be called as triggers"
-msgstr "トリガー関数はトリガーとしてのみコールできます"
+msgstr "トリガ関数はトリガとしてのみコールできます"
 
 #: plpy_procedure.c:235
 #, c-format
@@ -299,7 +299,7 @@ msgstr "PL/Python 関数は %s 型を返せません"
 #: plpy_procedure.c:316
 #, c-format
 msgid "PL/Python functions cannot accept type %s"
-msgstr "PL/Python 関数は %s 型を受け付けません"
+msgstr "PL/Python 関数は %s 型を受け付けられません"
 
 #: plpy_procedure.c:412
 #, c-format
@@ -329,7 +329,7 @@ msgstr "plpy.prepare: %d 番目の型名が文字列ではありません"
 #: plpy_spi.c:191
 #, c-format
 msgid "plpy.execute expected a query or a plan"
-msgstr "plpy.execute はクエリーもしくは実行計画を期待していました"
+msgstr "plpy.execute は問い合わせもしくは実行計画を期待していました"
 
 #: plpy_spi.c:210
 #, c-format
@@ -384,7 +384,7 @@ msgstr "モジュールの中に Decimal 属性が含まれていません"
 #: plpy_typeio.c:570
 #, c-format
 msgid "conversion from numeric to Decimal failed"
-msgstr "数値から Decimal への変換に失敗しました"
+msgstr "numeric から Decimal への変換に失敗しました"
 
 #: plpy_typeio.c:773
 #, c-format
@@ -402,8 +402,8 @@ msgid ""
 "could not convert Python object into cstring: Python string representation "
 "appears to contain null bytes"
 msgstr ""
-"Python オブジェクトを cstring に変換できませんでした：Python の文字列表現が "
-"null バイトを持つことになってしまいます"
+"Python オブジェクトを cstring に変換できませんでした：Python の文字列表現に "
+"null バイトが含まれているようです"
 
 #: plpy_typeio.c:950
 #, c-format
