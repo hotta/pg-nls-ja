@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: psql (PostgreSQL) 10\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-01-23 23:44+0000\n"
-"PO-Revision-Date: 2018-01-26 09:09+0900\n"
+"PO-Revision-Date: 2018-02-13 09:40+0900\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr "ディレクトリ \"%s\" に移動できませんでした: %s"
 #: ../../common/exec.c:272
 #, c-format
 msgid "could not read symbolic link \"%s\""
-msgstr "シンボリック リンク \"%s\" を読み取ることができませんでした"
+msgstr "シンボリックリンク \"%s\" を読み取ることができませんでした"
 
 #: ../../common/exec.c:523
 #, c-format
@@ -168,7 +168,7 @@ msgstr "\\%s コマンドは無視されます。現在の \\if ブロックを�
 #: command.c:553
 #, c-format
 msgid "could not get home directory for user ID %ld: %s\n"
-msgstr "ユーザー ID %ld のホーム ディレクトリを取得できませんでした : %s\n"
+msgstr "ユーザー ID %ld のホームディレクトリを取得できませんでした : %s\n"
 
 #: command.c:571
 #, c-format
@@ -193,7 +193,7 @@ msgstr "データベース \"%s\" にユーザ \"%s\" として、ホスト \"%s
 #: command.c:915 command.c:1005 command.c:1114 command.c:2523
 #, c-format
 msgid "no query buffer\n"
-msgstr "クエリ バッファーがありません\n"
+msgstr "問い合わせバッファがありません\n"
 
 #: command.c:948 command.c:4784
 #, c-format
@@ -507,7 +507,7 @@ msgstr "拡張表示は off です。\n"
 #: command.c:4068 command.c:4076
 #, c-format
 msgid "Field separator is zero byte.\n"
-msgstr "フィールド区切り文字はゼロ バイトです。\n"
+msgstr "フィールド区切り文字はゼロバイトです。\n"
 
 #: command.c:4070
 #, c-format
@@ -573,7 +573,7 @@ msgstr[0] "%d 行未満の場合、ページャーは使われません。\n"
 #: command.c:4141 command.c:4151
 #, c-format
 msgid "Record separator is zero byte.\n"
-msgstr "レコードの区切り文字はゼロ バイトです\n"
+msgstr "レコードの区切り文字はゼロバイトです\n"
 
 #: command.c:4143
 #, c-format
@@ -857,7 +857,7 @@ msgstr "\\crosstabview: ステートメントは結果セットを返しませ�
 #: crosstabview.c:129
 #, c-format
 msgid "\\crosstabview: query must return at least three columns\n"
-msgstr "\\crosstabview: クエリーは、少なくとも3つの列を返す必要があります。\n"
+msgstr "\\crosstabview: 問い合わせは、少なくとも3つの列を返す必要があります。\n"
 
 #: crosstabview.c:156
 #, c-format
@@ -867,7 +867,7 @@ msgstr "\\crosstabview: 垂直方向と水平方向のヘッダーは異なっ�
 #: crosstabview.c:172
 #, c-format
 msgid "\\crosstabview: data column must be specified when query returns more than three columns\n"
-msgstr "\\crosstabview: クエリが 4 つ以上の列を返す場合、データ列を指定する必要があります。\n"
+msgstr "\\crosstabview: 問い合わせが 4 つ以上の列を返す場合、データ列を指定する必要があります。\n"
 
 #: crosstabview.c:228
 #, c-format
@@ -962,7 +962,7 @@ msgstr "アクセスメソッド一覧"
 #: describe.c:218
 #, c-format
 msgid "The server (version %s) does not support tablespaces.\n"
-msgstr "このサーバー (バージョン %s) はテーブル スペースをサポートしていません。\n"
+msgstr "このサーバー (バージョン %s) はテーブル空間をサポートしていません。\n"
 
 #: describe.c:232 describe.c:240 describe.c:456 describe.c:642 describe.c:798
 #: describe.c:1039 describe.c:3382 describe.c:3510 describe.c:3756
@@ -985,7 +985,7 @@ msgstr "サイズ"
 
 #: describe.c:279
 msgid "List of tablespaces"
-msgstr "テーブルスペース一覧"
+msgstr "テーブル空間一覧"
 
 #: describe.c:320
 #, c-format
@@ -1116,7 +1116,7 @@ msgstr "Ctype(変換演算子)"
 
 #: describe.c:818
 msgid "Tablespace"
-msgstr "テーブルスペース"
+msgstr "テーブル空間"
 
 #: describe.c:840
 msgid "List of databases"
@@ -1543,14 +1543,14 @@ msgstr "OID あり: はい"
 #: describe.c:3049
 #, c-format
 msgid "Tablespace: \"%s\""
-msgstr "テーブルスペース: \"%s\""
+msgstr "テーブル空間: \"%s\""
 
 #. translator: before this string there's an index description like
 #. '"foo_pkey" PRIMARY KEY, btree (a)'
 #: describe.c:3061
 #, c-format
 msgid ", tablespace \"%s\""
-msgstr "、テーブル スペース \"%s\""
+msgstr "、テーブル空間 \"%s\""
 
 #: describe.c:3154
 msgid "List of roles"
@@ -1927,11 +1927,11 @@ msgstr ""
 #: describe.c:4644
 #, c-format
 msgid "The server (version %s) does not support foreign-data wrappers.\n"
-msgstr "このサーバー (バージョン %s) は外部データラッパーをサポートしていません。\n"
+msgstr "このサーバー (バージョン %s) は外部データラッパをサポートしていません。\n"
 
 #: describe.c:4702
 msgid "List of foreign-data wrappers"
-msgstr "外部データラッパー一覧"
+msgstr "外部データラッパ一覧"
 
 #: describe.c:4727
 #, c-format
@@ -1940,7 +1940,7 @@ msgstr "このサーバー (バージョン %s) は外部サーバをサポー�
 
 #: describe.c:4740
 msgid "Foreign-data wrapper"
-msgstr "外部データラッパー"
+msgstr "外部データラッパ"
 
 #: describe.c:4758 describe.c:4963
 msgid "Version"
@@ -2567,7 +2567,7 @@ msgstr "  \\dA[+]  [パターン]     アクセスメソッド一覧を表示し
 #: help.c:226
 #, c-format
 msgid "  \\db[+]  [PATTERN]      list tablespaces\n"
-msgstr "  \\db[+]  [パターン]     テーブルスペース一覧を表示します。\n"
+msgstr "  \\db[+]  [パターン]     テーブル空間一覧を表示します。\n"
 
 #: help.c:227
 #, c-format
@@ -2617,7 +2617,7 @@ msgstr "  \\deu[+] [パターン]     ユーザマッピング一覧を表示し
 #: help.c:236
 #, c-format
 msgid "  \\dew[+] [PATTERN]      list foreign-data wrappers\n"
-msgstr "  \\dew[+] [パターン]     外部データラッパー一覧を表示します。\n"
+msgstr "  \\dew[+] [パターン]     外部データラッパ一覧を表示します。\n"
 
 #: help.c:237
 #, c-format
@@ -2707,22 +2707,22 @@ msgstr "  \\dRs[+] [パターン]     レプリケーションのサブスクリ
 #: help.c:254
 #, c-format
 msgid "  \\ds[S+] [PATTERN]      list sequences\n"
-msgstr "  \\dc[S+] [パターン]     変換ルール一覧を表示します。\n"
+msgstr "  \\dc[S+] [パターン]     変換シーケンス一覧を表示します。\n"
 
 #: help.c:255
 #, c-format
 msgid "  \\dt[S+] [PATTERN]      list tables\n"
-msgstr "  \\ds[S+] [パターン]     シーケンス一覧を表示します。\n"
+msgstr "  \\ds[S+] [パターン]     テーブル一覧を表示します。\n"
 
 #: help.c:256
 #, c-format
 msgid "  \\dT[S+] [PATTERN]      list data types\n"
-msgstr "  \\dt[S+] [パターン]     テーブル一覧を表示します。\n"
+msgstr "  \\dt[S+] [パターン]     データ型一覧を表示します。\n"
 
 #: help.c:257
 #, c-format
 msgid "  \\du[S+] [PATTERN]      list roles\n"
-msgstr "  \\du[+]  [パターン]     ロール一覧を表示します。\n"
+msgstr "  \\du[S+] [パターン]     ロール一覧を表示します。\n"
 
 #: help.c:258
 #, c-format
@@ -2892,7 +2892,7 @@ msgstr "  \\prompt [テキスト] 変数名  ユーザに対して内部変数�
 #: help.c:309
 #, c-format
 msgid "  \\set [NAME [VALUE]]    set internal variable, or list all if no parameters\n"
-msgstr "  \\set [変数名 [値]]     内部変数の値を設定します。。引数がない場合は一覧を表示します。\n"
+msgstr "  \\set [変数名 [値]]     内部変数の値を設定します。引数がない場合は一覧を表示します。\n"
 
 #: help.c:310
 #, c-format
@@ -3618,7 +3618,7 @@ msgstr "テンプレートかどうか（真偽値）"
 
 #: sql_help.c:123 sql_help.c:588 sql_help.c:653 sql_help.c:1098 sql_help.c:1146
 msgid "new_tablespace"
-msgstr "新しいテーブルスペース名"
+msgstr "新しいテーブル空間名"
 
 #: sql_help.c:125 sql_help.c:128 sql_help.c:130 sql_help.c:534 sql_help.c:536
 #: sql_help.c:537 sql_help.c:863 sql_help.c:867 sql_help.c:870 sql_help.c:1005
@@ -3924,7 +3924,7 @@ msgstr "グループ名"
 #: sql_help.c:2463 sql_help.c:2475 sql_help.c:2488 sql_help.c:2528
 #: sql_help.c:2550 sql_help.c:2562 sql_help.c:3402 sql_help.c:3735
 msgid "tablespace_name"
-msgstr "テーブルスペース名"
+msgstr "テーブル空間名"
 
 #: sql_help.c:582 sql_help.c:585 sql_help.c:664 sql_help.c:666 sql_help.c:1147
 #: sql_help.c:1149 sql_help.c:2090 sql_help.c:2122 sql_help.c:2461
@@ -4092,7 +4092,7 @@ msgstr "テーブル制約は以下の通りです:"
 
 #: sql_help.c:1173 sql_help.c:1176 sql_help.c:2565
 msgid "tablespace_option"
-msgstr "テーブルスペースのオプション"
+msgstr "テーブル空間のオプション"
 
 #: sql_help.c:1197 sql_help.c:1200 sql_help.c:1206 sql_help.c:1210
 msgid "token_type"
@@ -4467,7 +4467,7 @@ msgstr "サーバーのバージョン"
 
 #: sql_help.c:2332 sql_help.c:3386 sql_help.c:3719
 msgid "fdw_name"
-msgstr "外部データラッパー名"
+msgstr "外部データラッパ名"
 
 #: sql_help.c:2345
 msgid "statistics_name"
@@ -4982,7 +4982,7 @@ msgstr "拡張の定義を変更します。"
 
 #: sql_help.c:4442
 msgid "change the definition of a foreign-data wrapper"
-msgstr "外部データラッパーの定義を変更します。"
+msgstr "外部データラッパの定義を変更します。"
 
 #: sql_help.c:4447
 msgid "change the definition of a foreign table"
@@ -5070,7 +5070,7 @@ msgstr "テーブルの定義を変更します。"
 
 #: sql_help.c:4552
 msgid "change the definition of a tablespace"
-msgstr "テーブルスペースの定義を変更します。"
+msgstr "テーブル空間の定義を変更します。"
 
 #: sql_help.c:4557
 msgid "change the definition of a text search configuration"
@@ -5178,7 +5178,7 @@ msgstr "拡張をインストールします。"
 
 #: sql_help.c:4692
 msgid "define a new foreign-data wrapper"
-msgstr "新しい外部データラッパーを定義します。"
+msgstr "新しい外部データラッパを定義します。"
 
 #: sql_help.c:4697
 msgid "define a new foreign table"
@@ -5254,11 +5254,11 @@ msgstr "新しいテーブルを定義します。"
 
 #: sql_help.c:4792 sql_help.c:5212
 msgid "define a new table from the results of a query"
-msgstr "クエリの結果から新しいテーブルを定義します。"
+msgstr "問い合わせの結果から新しいテーブルを定義します。"
 
 #: sql_help.c:4797
 msgid "define a new tablespace"
-msgstr "新しいテーブルスペースを定義します。"
+msgstr "新しいテーブル空間を定義します。"
 
 #: sql_help.c:4802
 msgid "define a new text search configuration"
@@ -5354,7 +5354,7 @@ msgstr "拡張を削除します。"
 
 #: sql_help.c:4922
 msgid "remove a foreign-data wrapper"
-msgstr "外部データラッパーを削除します。"
+msgstr "外部データラッパを削除します。"
 
 #: sql_help.c:4927
 msgid "remove a foreign table"
@@ -5434,7 +5434,7 @@ msgstr "テーブルを削除します。"
 
 #: sql_help.c:5027
 msgid "remove a tablespace"
-msgstr "テーブルスペースを削除します。"
+msgstr "テーブル空間を削除します。"
 
 #: sql_help.c:5032
 msgid "remove a text search configuration"
@@ -5478,7 +5478,7 @@ msgstr "プリペアドステートメントを実行します。"
 
 #: sql_help.c:5092
 msgid "show the execution plan of a statement"
-msgstr "ステートメントの実行プランを表示します。"
+msgstr "ステートメントの実行計画を表示します。"
 
 #: sql_help.c:5097
 msgid "retrieve rows from a query using a cursor"
